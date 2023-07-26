@@ -1,0 +1,127 @@
+@import url('../reset.css');
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+h1{
+    margin-top: 160px;
+}
+
+h1,
+h2 {
+    color: #000;
+    font-family: Castoro;
+    font-size: 128px;
+    font-weight: 400;
+    line-height: 192px;
+    letter-spacing: 15.36px;
+}
+
+h2 {
+    text-align: right;
+}
+
+.vito {
+    display: block;
+    margin: 0 auto;
+}
+
+.background-gray {
+    background: #EFEFEF;
+    height: 432px;
+}
+
+.resume {
+    width: 636px;
+    padding: 48px;
+    box-sizing: border-box;
+    margin-left: 660px;
+}
+
+.resume p {
+    color: #000;
+    font-family: Castoro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.content {
+    width: 636px;
+}
+
+h3 {
+    color: #AE0000;
+    font-family: Castoro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    border-bottom: 3px solid #AE0000;
+    margin-top: 40px;
+}
+
+.content:first-of-type h3 {
+    margin-top: 80px;
+}
+
+.content p {
+    color: #000;
+    font-family: Castoro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.content:first-of-type p:first-of-type {
+    margin-top: 16px;
+}
+
+.content:first-of-type p {
+    margin-top: 8px;
+}
+
+.content:nth-of-type(2) p,
+.content:nth-of-type(3) p {
+    margin-top: 16px;
+}
+
+.content:nth-of-type(4) p:first-of-type {
+    margin-top: 16px;
+}
+
+.content:nth-of-type(4) p {
+    margin-top: 12px;
+}
+
+.content:nth-of-type(4) p:last-of-type {
+    margin-bottom: 160px;
+}
+
+.content span {
+    color: #949494;
+    font-family: Castoro;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.background-black {
+    background-color: #000000;
+    height: 192px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+.link img {
+    display: block;
+    margin: 64px 20px;
+}
