@@ -1,4 +1,9 @@
-@import url('../reset.css');
+@import url('./reset.css');
+
+body {
+    font-family: Bruno Ace SC;
+    line-height: 1.5;
+}
 
 .container {
     max-width: 1296px;
@@ -19,12 +24,14 @@ nav {
 
 .list li {
     color: #D1D1D1;
-    font-family: Bruno Ace SC;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%;
     max-width: 306px;
+}
+
+.list li a {
+    color: #D1D1D1;
+    text-decoration: none;
 }
 
 header {
@@ -46,38 +53,24 @@ img[alt="photo"] {
 
 .intro h2 {
     color: #ffffff;
-    font-family: Bruno Ace SC;
     font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
 }
 
 .intro h1 {
     color: #00FFA3;
     text-align: right;
-    font-family: Bruno Ace SC;
     font-size: 128px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
 }
 
 .intro a {
     display: block;
     width: 191px;
-    height: 48px;
     margin-left: auto;
     text-decoration: none;
     background-color: #ffffff;
+    color: #000000;
     border-radius: 32px;
     padding: 12px 24px;
-    color: #000;
-    font-family: Bruno Ace SC;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
 }
 
 .intro a:hover {
@@ -95,26 +88,23 @@ img[alt="arrow-black"] {
 
 .section-01 .container {
     display: flex;
+    justify-content: space-between;
     padding: 160px 0;
+}
+
+.introduction {
+    max-width: 526px;
 }
 
 .introduction h2 {
     color: #ffffff;
-    font-family: Bruno Ace SC;
     font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
     margin-bottom: 36px;
 }
 
 .introduction p {
     color: #FFFFFF;
-    font-family: Bruno Ace SC;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
     margin-bottom: 32px;
 }
 
@@ -134,7 +124,7 @@ img[alt="arrow-black"] {
 }
 
 .block {
-    min-width: 636px;
+    max-width: 636px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -142,12 +132,10 @@ img[alt="arrow-black"] {
 
 .small-block {
     width: 306px;
-    height: 148px;
     padding: 16px;
     margin-bottom: 24px;
     border: 1px solid #E3E3E3;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
-
 }
 
 .small-block:nth-of-type(3),
@@ -155,45 +143,27 @@ img[alt="arrow-black"] {
     margin-bottom: 0;
 }
 
-.small-block h3 {
-    color: #15161D;
-    font-family: Bruno Ace SC;
+.small-block p {
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
 }
 
-.small-block p {
+.small-block p:last-child {
     color: #15161D;
-    font-family: Bruno Ace SC;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
 }
 
 .about {
-    margin-left: 134px;
+    max-width: 526px;
 }
 
 .about h2 {
-    color: #000000;
-    font-family: Bruno Ace SC;
     font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
     margin-bottom: 36px;
 }
 
 .about p {
     color: #15161D;
-    font-family: Bruno Ace SC;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
 }
 
 .section-03 {
@@ -214,11 +184,7 @@ img[alt="arrow-black"] {
 .contact h2 {
     display: inline-block;
     color: #FFFFFF;
-    font-family: Bruno Ace SC;
     font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
 }
 
 img[alt="arrow-right"] {
@@ -262,12 +228,7 @@ img[alt="arrow-right"] {
 }
 
 .section-04 h2 {
-    color: #000000;
-    font-family: Bruno Ace SC;
     font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
     max-width: 746px;
     margin-left: auto;
     margin-bottom: 16px;
@@ -298,27 +259,16 @@ img[alt="arrow-right"] {
 
 .top-project-content p {
     color: #15161D;
-    font-family: Bruno Ace SC;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
 }
 
 .top-project-content a {
     display: block;
     width: 191px;
-    height: 48px;
     text-decoration: none;
     background-color: #000000;
     border-radius: 32px;
     padding: 12px 24px;
     color: #FFFFFF;
-    font-family: Bruno Ace SC;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
 }
 
 .top-project-content a:hover {
@@ -337,9 +287,4 @@ footer {
 footer .container p {
     color: #FFFFFF;
     text-align: center;
-    font-family: Bruno Ace SC;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
 }

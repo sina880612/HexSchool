@@ -1,4 +1,9 @@
-@import url('../reset.css');
+@import url('./reset.css');
+
+body {
+    font-family: 'Castoro', serif;
+    line-height: 1.5;
+}
 
 .container {
     width: 1296px;
@@ -11,11 +16,7 @@ h1 {
 
 h1,
 h2 {
-    color: #000;
-    font-family: Castoro;
     font-size: 128px;
-    font-weight: 400;
-    line-height: 192px;
     letter-spacing: 15.36px;
 }
 
@@ -30,85 +31,69 @@ h2 {
 
 .background-gray {
     background: #EFEFEF;
-    height: 432px;
+    margin-bottom: 80px;
 }
 
 .resume {
-    width: 636px;
-    padding: 48px;
+    max-width: 636px;
+    padding: 48px 0;
     box-sizing: border-box;
     margin-left: auto;
 }
 
 .resume p {
-    color: #000;
-    font-family: Castoro;
     font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 48px;
 }
 
-.content {
-    width: 636px;
+.information {
+    max-width: 636px;
 }
 
 h3 {
     color: #AE0000;
-    font-family: Castoro;
     font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 60px;
+    margin-bottom: 16px;
     border-bottom: 3px solid #AE0000;
-    margin-top: 40px;
 }
 
-.content:first-of-type h3 {
-    margin-top: 80px;
-}
-
-.content p {
-    color: #000;
-    font-family: Castoro;
+.contant li {
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 36px;
 }
 
-.content:first-of-type p:first-of-type {
-    margin-top: 16px;
+.contant li:last-child{
+    margin-bottom: 40px;
 }
 
-.content:first-of-type p {
-    margin-top: 8px;
+.vito-evans li {
+    margin-bottom: 8px;
 }
 
-.content:nth-of-type(2) p,
-.content:nth-of-type(3) p {
-    margin-top: 16px;
+.vito-evans a {
+    color: #000000;
+    text-decoration: none;
 }
 
-.content:nth-of-type(4) p:first-of-type {
-    margin-top: 16px;
+.vito-evans a:hover{
+    opacity: .5;
 }
 
-.content:nth-of-type(4) p {
-    margin-top: 12px;
+.education li,
+.work li {
+    margin-bottom: 16px;
 }
 
-.content:nth-of-type(4) p:last-of-type {
-    margin-bottom: 160px;
-}
-
-.content span {
+.contant li span {
     color: #949494;
-    font-family: Castoro;
     font-size: 20px;
     font-style: italic;
-    font-weight: 400;
-    line-height: 30px;
+}
+
+.awards li {
+    margin-bottom: 12px;
+}
+
+.awards li:last-child{
+    margin-bottom: 160px;
 }
 
 .background-black {
