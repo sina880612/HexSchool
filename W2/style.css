@@ -48,12 +48,14 @@ img[alt="photo"] {
 }
 
 .intro {
+    text-align: right;
     margin-left: 24px;
 }
 
 .intro h2 {
     color: #ffffff;
     font-size: 64px;
+    text-align: left;
 }
 
 .intro h1 {
@@ -63,9 +65,6 @@ img[alt="photo"] {
 }
 
 .intro a {
-    display: block;
-    width: 191px;
-    margin-left: auto;
     text-decoration: none;
     background-color: #ffffff;
     color: #000000;
